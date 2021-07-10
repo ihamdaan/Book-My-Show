@@ -1,0 +1,2 @@
+HOC (Higher Order Components)
+It will return a function or class component based on the assigned type
