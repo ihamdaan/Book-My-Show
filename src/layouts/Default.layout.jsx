@@ -1,14 +1,16 @@
 import React from "react";
 
 
-const DefaultLayout = () =>{
-    return(
-        <div>
-            <h1 className="text-xl">
-                Default Layout
-            </h1>
-        </div>
-    )
+//Components
+import Navbar from "../components/Navbar/navbar.component";
+import HeroCarousal from "../components/HeroCarousal/HeroCarousal.component";
+
+const DefaultLayout = (props) => {
+  return (<>
+    <Navbar />
+    <HeroCarousal />
+    {props.children}
+    </>);
 };
 
 export default DefaultLayout;
