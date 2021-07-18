@@ -2,14 +2,14 @@ import React from "react";
 
 
 //Components
-import EntertainmentCardSlider from "../Entertainment/Entertainmentcard.component";
+import EntertainmentCardSlider from "../components/Entertainment/Entertainmentcard.component";
+
 
 //import Posters
-import TempPoster from "../../config/TempPosters.config";
+import TempPoster from "../config/TempPosters.config";
 
 //impost Poster Slider
-import PosterSlider from "../PosterSlider/PosterSlider.component";
-
+import PosterSlider from "../components/Poster/Poster.component";
 
 const HomePage = () => {
     return(

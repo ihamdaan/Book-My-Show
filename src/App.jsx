@@ -5,10 +5,10 @@ import DefaultHOC from "./HOC/Default.HOC";
 import MovieHOC from "./HOC/Movie.HOC";
 
 // Add HomePage Component
-import HomePage from "./components/pages/Home.page";
+import HomePage from "./Pages/Home.page";
 
 // Add Movie Component
-import Movie from "./components/pages/Movie.page";
+import Movie from "./Pages/Movie.page";
 
 // Import css files
 import "slick-carousel/slick/slick.css";
