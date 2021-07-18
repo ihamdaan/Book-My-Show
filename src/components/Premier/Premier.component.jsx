@@ -2,7 +2,7 @@ import React from 'react'
 import Slider from 'react-slick';
 
 //import poster here
-import Poster from '../components/Poster/Poster.component';
+import Poster from '../Poster/Poster.component';
 
 export const Premier = () => {
 

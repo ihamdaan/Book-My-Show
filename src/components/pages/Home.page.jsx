@@ -2,7 +2,7 @@ import React from "react";
 
 //Components
 import EntertainmentCardSlider from "../Entertainment/Entertainmentcard.component";
-import Premier from "../../Premier/Premier.component";
+import Premier from "../Premier/Premier.component";
 
 const HomePage = () => {
     return(
