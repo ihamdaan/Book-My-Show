@@ -91,9 +91,9 @@ const Movie = () => {
 
                 <div className="my-8"><hr /></div>
 
-                <div className="my-8">
+                <div className="my-8 flex flex-col">
 
-                    <h2 className="text-gray-800 font-bold text-2xl mb-3">Cast & Crew</h2>
+                    <h2 className="text-gray-800 font-bold text-2xl mb-4">Cast & Crew</h2>
 
                     <div className="flex flex-wrap gap-4">
                         <Cast image="https://in.bmscdn.com/iedb/artist/images/website/poster/large/henry-cavill-23964-04-05-2020-04-25-14.jpg" 
@@ -129,6 +129,16 @@ const Movie = () => {
                     config={movieSettings}
                     images={TempPoster} 
                     title="You might also like" 
+                    isDark={false} />
+                </div>
+
+                <div className="my-8"><hr /></div>
+
+                <div className="my-8">
+                    <PosterSlider 
+                    config={movieSettings}
+                    images={TempPoster} 
+                    title="BMS XCLUSIV" 
                     isDark={false} />
                 </div>
             </div>
