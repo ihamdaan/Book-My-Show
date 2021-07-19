@@ -1,60 +1,54 @@
 
 //to contain all the images of the poster in premier section
-const PremierImage = [
+const PremierImages = [
     {
-        src: "https://in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/zack-snyder-s-justice-league-et00047164-10-04-2021-03-22-49.jpg",
-        alt: "zack",
-        title: "Zacl",
-        subtitle: "english"
+      src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20/et00047164-sztaxpptsc-portrait.jpg",
+      alt: "zack",
+      title: "Zacl",
+      subtitle: "english",
     },
     {
-        src: "https://in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/zack-snyder-s-justice-league-et00047164-10-04-2021-03-22-49.jpg",
-        alt: "zack",
-        title: "Zacl",
-        subtitle: "english"
+      src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20/et00047164-sztaxpptsc-portrait.jpg",
+      alt: "zack",
+      title: "Zacl",
+      subtitle: "english",
     },
     {
-        src: "https://in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/zack-snyder-s-justice-league-et00047164-10-04-2021-03-22-49.jpg",
-        alt: "zack",
-        title: "Zacl",
-        subtitle: "english"
+      src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20/et00047164-sztaxpptsc-portrait.jpg",
+      alt: "zack",
+      title: "Zacl",
+      subtitle: "english",
     },
     {
-        src: "https://in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/zack-snyder-s-justice-league-et00047164-10-04-2021-03-22-49.jpg",
-        alt: "zack",
-        title: "Zacl",
-        subtitle: "english"
+      src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20/et00047164-sztaxpptsc-portrait.jpg",
+      alt: "zack",
+      title: "Zacl",
+      subtitle: "english",
     },
     {
-        src: "https://in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/zack-snyder-s-justice-league-et00047164-10-04-2021-03-22-49.jpg",
-        alt: "zack",
-        title: "Zacl",
-        subtitle: "english"
+      src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20/et00047164-sztaxpptsc-portrait.jpg",
+      alt: "zack",
+      title: "Zacl",
+      subtitle: "english",
     },
     {
-        src: "https://in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/zack-snyder-s-justice-league-et00047164-10-04-2021-03-22-49.jpg",
-        alt: "zack",
-        title: "Zacl",
-        subtitle: "english"
+      src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20/et00047164-sztaxpptsc-portrait.jpg",
+      alt: "zack",
+      title: "Zacl",
+      subtitle: "english",
     },
     {
-        src: "https://in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/zack-snyder-s-justice-league-et00047164-10-04-2021-03-22-49.jpg",
-        alt: "zack",
-        title: "Zacl",
-        subtitle: "english"
+      src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20/et00047164-sztaxpptsc-portrait.jpg",
+      alt: "zack",
+      title: "Zacl",
+      subtitle: "english",
     },
     {
-        src: "https://in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/zack-snyder-s-justice-league-et00047164-10-04-2021-03-22-49.jpg",
-        alt: "zack",
-        title: "Zacl",
-        subtitle: "english"
+      src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20/et00047164-sztaxpptsc-portrait.jpg",
+      alt: "zack",
+      title: "Zacl",
+      subtitle: "english",
     },
-    {
-        src: "https://in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/zack-snyder-s-justice-league-et00047164-10-04-2021-03-22-49.jpg",
-        alt: "zack",
-        title: "Zacl",
-        subtitle: "english"
-    },
-];
-
-export default PremierImage;
+  ];
+  
+  export default PremierImages;

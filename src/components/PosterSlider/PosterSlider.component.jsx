@@ -8,6 +8,10 @@ import Poster from '../Poster/Poster.component';
 import PosterCarousalSettings from '../../config/PosterCarousal.config';
 
 const PosterSlider = (props) => {
+
+    //to apply custom config/settings for the slider poster/image
+    const sliderConfig = props.config ? props.config : PosterCarousalSettings;
+
     return (
         <>
             <div className="flex flex-col items-start px-4 my-2">
@@ -16,7 +20,7 @@ const PosterSlider = (props) => {
             </div>
 
             <div>
-                <Slider {...PosterCarousalSettings}>
+                <Slider {...sliderConfig}>
                     {props.images.map((image) => (
                         <Poster {...image} isDark={props.isDark} />
                     ))}
