@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-//import poster component
+//import Filter for the Events page from PlaysFilter components since both are similar
 import PlaysFilter from '../components/PlaysFilter/PlaysFilters.component';
 
 //import Filter for the Plays page from components
 import Poster from '../components/Poster/Poster.component';
 
-const Plays = () => {
+const Events = () => {
     return (
         <>
             <div className="lg:py-12 bg-page-800">
@@ -15,30 +15,30 @@ const Plays = () => {
                     <div className="w-full lg:flex lg:flex-row-reverse gap-5">
                         
                         <div className="lg:w-9/12">
-                            <h2 className="text-2xl font-bold mb-4 px-3">Plays in Chandigarh</h2>
+                            <h2 className="text-2xl font-bold mb-4 px-3">Events in Chandigarh</h2>
                             <div className="flex flex-wrap">
                                 <div className="w-1/2 my-3 md:w-1/3 lg:w-3/12">
-                                    <Poster src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-TW9uLCAxOSBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309696-fsqhgswrqc-portrait.jpg"
-                                    title="`Kanthamathi` (Sadarame) Surabhi Theatre Play"
-                                    subtitle="Telugu -> ₹420" /> 
+                                    <Poster src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAyNSBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00145294-swmacsqffd-portrait.jpg"
+                                    title="Jo Bolta Hai Wohi Hota Hai feat Harsh Gujral"
+                                    subtitle="Hindi, English -> ₹499 onwards" /> 
                                 </div>
 
                                 <div className="w-1/2 my-3 md:w-1/3 lg:w-3/12">
-                                    <Poster src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-TW9uLCAxOSBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309696-fsqhgswrqc-portrait.jpg"
-                                    title="`Kanthamathi` (Sadarame) Surabhi Theatre Play"
-                                    subtitle="Telugu -> ₹420" /> 
+                                    <Poster src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAyNSBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00145294-swmacsqffd-portrait.jpg"
+                                    title="Jo Bolta Hai Wohi Hota Hai feat Harsh Gujral"
+                                    subtitle="Hindi, English -> ₹499 onwards" /> 
                                 </div>
 
                                 <div className="w-1/2 my-3 md:w-1/3 lg:w-3/12">
-                                    <Poster src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-TW9uLCAxOSBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309696-fsqhgswrqc-portrait.jpg"
-                                    title="`Kanthamathi` (Sadarame) Surabhi Theatre Play"
-                                    subtitle="Telugu -> ₹420" /> 
+                                    <Poster src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAyNSBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00145294-swmacsqffd-portrait.jpg"
+                                    title="Jo Bolta Hai Wohi Hota Hai feat Harsh Gujral"
+                                    subtitle="Hindi, English -> ₹499 onwards" /> 
                                 </div>
 
                                 <div className="w-1/2 my-3 md:w-1/3 lg:w-3/12">
-                                    <Poster src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-TW9uLCAxOSBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309696-fsqhgswrqc-portrait.jpg"
-                                    title="`Kanthamathi` (Sadarame) Surabhi Theatre Play"
-                                    subtitle="Telugu -> ₹420" /> 
+                                    <Poster src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAyNSBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00145294-swmacsqffd-portrait.jpg"
+                                    title="Jo Bolta Hai Wohi Hota Hai feat Harsh Gujral"
+                                    subtitle="Hindi, English -> ₹499 onwards" /> 
                                 </div>
                             </div>
                         </div>
@@ -85,4 +85,4 @@ const Plays = () => {
     )
 }
 
-export default Plays;
+export default Events;

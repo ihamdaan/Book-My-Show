@@ -14,10 +14,10 @@ const PlaysFilter = (props) => {
                         </div>
                         <div className="text-xs"><span className={open ? "text-red-300" : "text-gray-400"}>Clear</span></div>
                     </Disclosure.Button>
-                    <Disclosure.Panel className="text-gray-500">
+                    <Disclosure.Panel className="text-gray-500 py-3">
                         <div className="flex items-center gap-3 flex-wrap">
                             {props.tags.map((tag) => (
-                                <div className="border-2 border-gray-300 py-2 px-3">
+                                <div className="border border-gray-200 py-1 px-2">
                                     <span className="text-red-600">{tag}</span>
                                 </div>
                             ))}

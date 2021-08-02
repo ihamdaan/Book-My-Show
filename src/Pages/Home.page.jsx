@@ -9,10 +9,21 @@ import TempPosters from "../config/TempPosters.config";
 
 const HomePage = () => {
   return (
-    <>
+    <div className="bg-page-800">
       <div className="flex flex-col gap-10">
+        <div>
+          <div className="lg:hidden">
+            <img src="https://in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-480:w-600/premieres-v6-collection-202104050255.png"
+            alt="Banner" className="w-full h-full"/>
+          </div>
+
+          <div className="mt-12 hidden lg:block container mx-auto px-4">
+            <img src="https://in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/lead-in-v3-collection-202102040828.png" 
+            alt="Banner" className="w-full h-full"/>
+          </div>
+        </div>
         <div className="container mx-auto px-4 ">
-          <h1 className="text-2xl font-bold text-gray-800 my-3">
+          <h1 className="text-2xl font-bold text-gray-800 my-2 lg:my-4">
             The best of Entertainment
           </h1>
           <EntertainmentCardSlider />
@@ -92,7 +103,7 @@ const HomePage = () => {
             isDark={false}
             />
       </div>
-    </>
+    </div>
   );
 };
 
